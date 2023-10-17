@@ -1,0 +1,23 @@
+#Link replit
+https://replit.com/join/qtdjmtsknu-maria-fernan901
+
+#If the average grade is greater than or equal to 75 and classroom participation is "Yes", the student is in good academic standing.
+#If the project score is greater than 90, the student receives a distinction
+#If the average grade is less than 60 or classroom participation is "No", the student needs to improve their performance
+
+print("Hello, and welcome to student evaluation")
+average_grade=int(input("What is your average grade?"))
+classroom_participation=str(input("Do you have classroom participation?"))
+if average_grade>75 and classroom_participation=="Yes":
+    print("The student is in good academic standing")
+else:
+  print("Do a big effort!")
+project_score=str(input("What is your project score?"))
+if project_score>=90:
+    print("The student receives a distinction")
+else:
+  print("Do a big effort!")
+if average_grade<60 or classroom_participation=="No":
+    print("The student needs to improve their performance")
+else:
+  print("Do a big effort!")
