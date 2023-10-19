@@ -1,0 +1,20 @@
+#LINK
+https://replit.com/join/scermfrexm-maria-fernan901
+
+#Program to follow a healthy diet, dta to take in account, Age, Weihght in kilogrms, physical activity (sedentary, moderate, activate)
+patient_age=float(input("What is your age?"))
+weight=input("What is your weight in kg?")
+physical_activity=str(input("What is your level of physical actvity, (sedentary,moderate or actviate)?"))
+high=input("What is your high?")
+
+if patient_age<=18:
+ print("We recommend a high carbohydrate diet")
+
+if patient_age>=18 and patient_age<=35:
+  print("We recommend a high protein and lower carbohydrate diet")
+
+elif patient_age>=35:
+  print("We recommend a low sugar diet")
+
+if patient_age>=18 and patient_age>=30 and physical_activity=="moderate" or "sedentary":
+  print("You need aerobic exercises")
