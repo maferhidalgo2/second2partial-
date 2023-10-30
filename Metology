@@ -1,0 +1,30 @@
+#LINK REPLIT
+https://replit.com/join/hesadmjaau-maria-fernan901
+
+
+
+
+#Person
+person=input("Did you forget chores frequently?")
+
+chores=input("Do you forget things easily?")
+
+print("What this do you forget eassily? 1_.chores 2_.names 3_.appointmnts 4.-work or homewrok 5-. things to do")
+thing=input("Please type the number: ")
+if person == "yes" and chores=="yes":
+ print("you should pay attention, and may go to the doctor to see if its not a big problem")
+elif person=="no" and chores=="yes":
+ print("Ohh , its normal don´t worry, you can developed habilities to avoid that")
+elif person=="yes" and chores=="no":
+ print("You can try by writting it , its fine!")
+
+if thing=="1":
+  print("You may try by writting  in a paper or in your cellphone")
+elif thing=="2":
+  print("You can have problem , go check to the doctor , also everytime you see someone try to say hello by their name to memorize better")
+elif thing=="3":
+  print("You can use apps to emitt alert to remind you , or maybe you can ask for a call to remind")
+elif thing=="4":
+  print("You can add the work in the calendar ans check it , or if you prefer in a agenda")
+elif thing=="5":
+  print("You can have use thhings to remind you , for example a bracelet that remind you that you have to do that , or use an app to remind you")
